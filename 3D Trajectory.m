@@ -9,9 +9,10 @@ theta = theta * pi / 180;
 d = R * cos(beta); % Calculate the value of d
 % Create phi values 
 phi = linspace(0, 2 * pi, 100);  
-% Calculatex, y, z  
+% Calculatex, y 
 x = R * sin(beta) * sin(phi);  
 y = R * sin(beta) * cos(phi) * sin(theta) + d * cos(theta);  
+% Calculate solar zenith angle
 z = R * sin(beta) * cos(phi) * cos(theta) - d * sin(theta);  
   
 % scatter3 is used to draw the origin and save the handle
