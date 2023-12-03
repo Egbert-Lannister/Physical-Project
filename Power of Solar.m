@@ -81,6 +81,7 @@ AngIn = acos(cos(zenith)*cos(h_theta) + sin(zenith)*sin(h_theta)*cos(phi));
 
 % Amount of direct solar radiation dir 直接太阳辐射量
 dir = solar_constant*power(atm_tran,m)*sun_dur*sun_gap*cos(AngIn);
+dir = abs(dir);
 
 % The proportion of the total normal radiant flux scattered
 P_dif = 0.2 + (0.7 - 0.2)*rand;
@@ -96,9 +97,10 @@ weight = cos(zenith);
 
 % Calculate the scattered radiation dif 散射太阳辐射量
 dif = R_glb * P_dif * dur * sun_gap * weight * cos(AngIn);
+dif = abs(dif);
 
 % Total solar radiation G
-G = abs(dir) + abs(dif);
+G = dir + dif;
 
 % Photovoltaic cell area
 A = 24;
