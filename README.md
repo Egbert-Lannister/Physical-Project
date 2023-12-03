@@ -26,7 +26,7 @@ $T_s = \frac{2}{15} \arccos (-\tan(\delta ) \times \tan (\theta ) )$
 
 ### 计算光伏电池功率
 
-已知某品牌二极管反向电阻为 $R_{diode} = 80000\Omega$，光伏电池电阻 $R_{ph} = 0.5\Omega$，电阻 $R_p=10\Omega$，$R_s=20\Omega$，电路中开路电压 $V_{pv} = 30V$。
+已知某品牌二极管反向电阻为 $R_{diode} = 80000\Omega$，光伏电池电阻 $R_{ph} = 0.5\Omega$，电阻 $R_p=10\Omega$， $R_s=20\Omega$，电路中开路电压 $V_{pv} = 30V$。
 
 根据以下公式，求得$I_{st}$
 
