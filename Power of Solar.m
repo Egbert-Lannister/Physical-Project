@@ -111,14 +111,3 @@ disp(G);
 disp('The power of solar is');
 disp(P_solar);
 
-
-
-
-
-
-
-
-
-
-
-
