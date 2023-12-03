@@ -45,7 +45,7 @@ z = R * sin(beta) * cos(phi) * cos(theta) - d * sin(theta);
 
 已知威海市纬度 $\theta = 37.5^{\circ}$
 
-赤纬角 $\delta$、纬度 $\theta$、高度角 $z $之间存在以下关系
+赤纬角 $\delta$ 、纬度 $\theta$、高度角 $z $之间存在以下关系
 
 $z = \frac{\pi}{2}  - (\theta +\delta )$
 
