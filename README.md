@@ -11,18 +11,6 @@ $\eta_{pv}  = \frac{P_{solar} }{AG} $
 
 太阳辐射量分为直接太阳辐射量和散射辐射量
 
-$z$ 得到太阳高度角
-
-已知威海市纬度 $\theta = 37.5^{\circ}$
-
-赤纬角 $\delta$ 、纬度 $\theta$、高度角 $z $之间存在以下关系
-
-$z = \frac{\pi}{2}  - (\theta +\delta )$
-
-由此得到赤纬角 $\delta$
-
-太阳高度角 $z$ 和天顶角 $\varphi $之间的关系有
-
 $\sin z = \cos \varphi = \sin \delta \sin \phi +\cos \delta \cos \phi \cos \theta $
 
 则可以根据天顶角和高度角之间的关系
