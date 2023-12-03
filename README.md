@@ -51,10 +51,10 @@ I_{rev} = \frac{IT}{e^{\frac{qV_{oc}}{kT}}-1}
 $$
 
 
-二极管电流为 $I_{pov}$
+二极管热电压为 $v$
 
 $$
-I_{pov} = I_{rev}(e^{\frac{qv}{kT}}-1)
+v = \frac{kT}{q}
 $$
 
 最终太阳能电池的输出电流为：
