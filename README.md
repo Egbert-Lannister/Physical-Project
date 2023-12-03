@@ -5,7 +5,7 @@
 要求量 $\eta_{pv} $
 $\eta_{pv}  = \frac{P_solar}{AG} $
 
-其中，$P_{solar} = I_{pv} \times V_{pv}$, $A$是光伏电池的面积，$G$是太阳有效辐射量即直接太阳辐射量
+其中,$P_{solar} = I_{pv} \times V_{pv}$,$A$是光伏电池的面积,$G$是太阳有效辐射量即直接太阳辐射量
 
 ### 计算太阳辐射量
 
