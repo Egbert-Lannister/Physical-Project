@@ -49,7 +49,7 @@ z = R * sin(beta) * cos(phi) * cos(theta) - d * sin(theta);
 
 $z = \frac{\pi}{2}  - (\theta +\delta )$
 
-由此得到赤纬角$\delta $
+由此得到赤纬角 $\delta$
 
 太阳高度角 $z $ 和天顶角 $\varphi $之间的关系有
 
@@ -57,9 +57,9 @@ $\sin z = \cos \varphi = \sin \delta \sin \phi +\cos \delta \cos \phi \cos \thet
 
 则可以根据天顶角和高度角之间的关系
 
-$\varphi  = \frac{\pi}{2}  - z $
+$\varphi  = \frac{\pi}{2}  - z$
 
-得到天顶角$\varphi $
+得到天顶角$\varphi$
 
 太阳日照时长为
 
