@@ -28,13 +28,13 @@ $T_s = \frac{2}{15} \arccos (-\tan(\delta ) \times \tan (\theta ) )$
 
 已知某品牌二极管反向电阻为 $R_{diode} = 80000\Omega$，光伏电池电阻 $R_{ph} = 0.5\Omega$，电阻 $R_p=10\Omega$， $R_s=20\Omega$，电路中开路电压 $V_{pv} = 30V$。
 
-根据以下公式，求得$I_{st}$
+根据以下公式，求得 $I_{st}$
 
 $$
 V_{pv} = I_{st}\times(R_s+\frac{R_p\times R_{ph}\times R_{diode}}{R_{diode}\times R_{ph} + R_p\times R_{ph}+R_p\times R_{diode}})
 $$
 
-已知电子电荷量$q$，玻尔兹曼常数$k$。
+已知电子电荷量 $q$，玻尔兹曼常数 $k$。
 
 根据公式：
 
@@ -42,7 +42,7 @@ $$
 I_{sc} = (\frac{G}{G_{st}})I_{st}
 $$
 
-得到$I_{sc}$
+得到 $I_{sc}$
 
 设置开路电压值可求解反向饱和电流值，$I_{pv} = 0$，$V_{oc}  = V_{pv}$
 
