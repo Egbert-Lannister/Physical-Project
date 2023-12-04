@@ -8,7 +8,7 @@
 
 ### 计算太阳辐射功率
 
-太阳辐射量分为直接太阳辐射量$dir$和散射辐射量$dif$
+太阳辐射量分为直接太阳辐射量 $dir$和散射辐射量 $dif$
 
 $\sin \alpha_h = \cos \varphi = \sin \delta \sin \phi +\cos \delta \cos \phi \cos \theta $
 
