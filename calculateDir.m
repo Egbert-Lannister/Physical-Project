@@ -4,7 +4,7 @@ function dir = calculateDir(delta, latitude, AngIn, atm_tran, m, sun_gap)
     solar_constant = 1367;
 
     % Sky sector duration
-    sun_dur = (2/15)*acos(-tan(delta)*tan(latitude));
+    sun_dur = (2/15)*acos(((-1)*tan(delta)*tan(latitude)));
 
     % Amount of direct solar radiation dir
     dir = solar_constant*power(atm_tran,m)*sun_dur*sun_gap*cos(AngIn);
