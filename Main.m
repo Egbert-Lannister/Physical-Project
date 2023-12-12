@@ -1,3 +1,5 @@
+function Main
+
 % This is the Main Function
 
 % Calculate the Declination Angle delta
@@ -44,3 +46,5 @@ P_cell = calculateCellPower(T, dir, G_st);
 
 % Calculate the efficiency
 eta = P_cell/P_solar;
+
+end
