@@ -97,6 +97,7 @@
       <file>${PROJECT_ROOT}\calculateSkySectionIncidenceAngle.m</file>
       <file>${PROJECT_ROOT}\calculateSolarPower.m</file>
       <file>${PROJECT_ROOT}\calculateZenithAngle.m</file>
+      <file>${PROJECT_ROOT}\check.m</file>
       <file>${PROJECT_ROOT}\generatePorosity.m</file>
       <file>${PROJECT_ROOT}\generateTransmittance.m</file>
       <file>${PROJECT_ROOT}\GUI.fig</file>

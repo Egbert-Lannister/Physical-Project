@@ -83,6 +83,7 @@ G_st = dir + dif;
 P_solar = calculateSolarPower(G_st);
 P_cell = calculateCellPower(T, dir, G_st);
 eta = P_cell/P_solar;
+eta = check(eta);
 se=strcat(num2str(eta*100),'%');
 set(handles.edit12, 'String',se);
 
