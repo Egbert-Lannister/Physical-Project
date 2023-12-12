@@ -1,23 +1,5 @@
 % This is the Main Function
 
-% input the date
-year = input('Please input the year:');
-month = input('Please input the month:');
-day = input('Please input the day:');
-
-% input the time hour
-hour = input('Please input the hour:');
-
-% input the longitude and latitude
-longitude = input('Please input the longitude:');
-latitude = input('Please input the latitude:');
-
-% input the altitude
-Elev = input('Please input the altitude:');
-
-% input the temperature
-T = input('Please input the temperature:');
-
 % Calculate the Declination Angle delta
 delta = calculateDeclinationAngle(year, month, day);
 
@@ -62,12 +44,3 @@ P_cell = calculateCellPower(T, dir, G_st);
 
 % Calculate the efficiency
 eta = P_cell/P_solar;
-
-disp('Total solar radiation G is');
-disp(G_st);
-disp('The power of solar is');
-disp(P_solar);
-disp('The power of cell is');
-disp(P_cell);
-disp('The efficiency of cell is');
-disp(eta);
